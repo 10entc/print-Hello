@@ -1,0 +1,11 @@
+# Get the user's age as input
+age = input("Please enter your age: ")
+
+# Convert the input to an integer
+age = int(age)
+
+# Check if the age is less than or equal to 40
+if age <= 40:
+    print("You are eligible.")
+else:
+    print("You are not eligible.")
